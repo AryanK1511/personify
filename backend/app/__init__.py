@@ -13,8 +13,4 @@ CORS(app, supports_credentials=True)
 app.config.from_object(Config)
 
 # Import the routes
-<<<<<<< HEAD
 from app.routes import get
-=======
-from app.routes import post
->>>>>>> main
