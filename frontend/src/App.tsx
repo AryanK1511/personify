@@ -1,7 +1,12 @@
-import './App.css'
+import './App.css';
+import { URLInputForm } from './components/URLInputForm/URLInputForm';
 
 function App() {
-  return <h1>Hello World</h1>;
+    return (
+        <div>
+            <URLInputForm />
+        </div>
+    );
 }
 
-export default App
+export default App;
