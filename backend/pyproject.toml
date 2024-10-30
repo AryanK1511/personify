@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = "Backend for personify"
+authors = ["Aryan Khurana <aryankhurana1511@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+Flask = "^3.0.3"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+flask-cors = "^5.0.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
